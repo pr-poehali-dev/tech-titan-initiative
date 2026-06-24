@@ -3,36 +3,36 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
+    name: "Елена Соколова",
+    role: "Владелец сети кофеен",
     avatar: "/professional-woman-scientist.png",
     content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
+      "Я чувствовала, что бизнес буксует, но не понимала почему. Аудит показал, где утекали деньги — за 3 месяца вышли в плюс на 18%.",
   },
   {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Дмитрий Воронов",
+    role: "Собственник производственной компании",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Думал, проблема в продажах, а оказалось — в маркетинговом бюджете. Перераспределили каналы и снизили стоимость клиента почти вдвое.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Анна Лебедева",
+    role: "Директор онлайн-школы",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Получила не сухой отчёт, а чёткий план действий по пунктам. Впервые увидела реальные цифры по воронке и убрала слабые места.",
   },
 ]
 
 export function TestimonialsSection() {
   return (
-    <section className="py-24 px-6 bg-card">
+    <section id="testimonials" className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Результаты наших клиентов</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Владельцы бизнеса о том, что изменилось после аудита
           </p>
         </div>
 
